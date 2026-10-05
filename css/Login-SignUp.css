@@ -1,0 +1,219 @@
+section {
+    display: flex;
+}
+/**/
+.login {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid var(--gray-100);
+    border-radius: var(--radius-md);
+}
+/* start media */
+@media (max-width: 768px) {
+    .login {
+        width: 100%;
+    }
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0px;
+    position: relative;
+}
+    .email b {
+        margin-bottom: 10px
+    }
+    .email input {
+        height: 40px;
+        padding-left: 30px;
+        border: 2px solid var(--gray-200);
+        border-radius: var(--radius-sm);
+        outline-color: var(--primary);
+    }
+    .email i {
+        position: absolute;
+        bottom: 12px;
+        font-size: 16px;
+        left: 8px;
+        color: #757575;
+    }
+/**/
+.password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0px;
+    position: relative;
+}
+    .password b {
+        margin-bottom: 10px
+    }
+    .password input {
+        height: 40px;
+        padding-left: 30px;
+        border: 2px solid var(--gray-200);
+        border-radius: var(--radius-sm);
+        outline-color: var(--primary);
+        position: relative;
+    }
+    .password > i {
+        position: absolute;
+        bottom: 12px;
+        font-size: 16px;
+        left: 8px;
+        color: #757575;
+    }
+    .password button {
+        position: absolute;
+        bottom: 8px;
+        right: 10px;
+        border: none;
+        background-color: var(--white);
+    }
+        .password button i {
+            font-size: 16px;
+            color: #757575
+        }
+/**/
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+    .checkbox > div {
+        display: flex;
+        gap: 10px;
+    }
+    .checkbox a {
+        color: var(--primary)
+    }
+.login > button {
+    height: 40px;
+    border-radius: var(--radius-sm);
+    border: none;
+    background-color: var(--primary);
+    color: var(--white);
+    margin-bottom: 20px;
+}
+/**/
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: var(--gray-200);
+    margin-left: 10px;
+}
+.or:before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: var(--gray-200);
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .or:after {
+        width: 90px;
+    }
+    .or:before {
+        width: 90px;
+    }
+}
+
+/**/
+.asid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+    .asid a {
+        height: 35px;
+        width: 45%;
+        padding: 5px;
+        border: 2px solid var(--gray-200);
+        border-radius: var(--radius-sm);
+        align-content: center;
+        text-align: center;
+    }
+        .asid a i {
+            color: var(--primary);
+            font-size: 18px
+        }
+/**/
+.login > div:last-of-type {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+    .login > div:last-of-type a {
+        color: var(--primary);
+    }
+/**/
+.login-back {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 0 10px 10px;
+    border-radius: var(--radius-md);
+    background-color: #f0f1fc;
+}
+/* start media */
+@media (max-width: 768px) {
+    .login-back {
+        display: none;
+    }
+}
+    .login-back img {
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 18px 0 0 18px;
+    }
+.login-text {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.login-head-text h2 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+.login-head-text p {
+    margin-bottom: 20px;
+}
+
+.logg {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    .logg > div {
+        display: flex;
+    }
+    .logg i {
+        font-size: 18px;
+        margin-right: 10px;
+        color: var(--primary);
+        background-color: var(--white);
+        display: block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        align-content: center;
+        border-radius: var(--radius-sm);
+    }

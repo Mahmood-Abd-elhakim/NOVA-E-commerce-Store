@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>NOVA | Checkout</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/Checkout.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <div class="mine-header ">
+            <div class="medie-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div>
+                <img src="img/logo.png " alt="logo" />
+                <h1> NOVA </h1>
+            </div>
+
+            <div class="search">
+                <input type="search" placeholder="Search for products, categories, brands..." />
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div>
+                <div>
+                    <a href="Wishlist.html">
+                        <i class="fa-regular fa-heart"></i>
+                        <p> wishlist </p>
+                    </a>
+                </div>
+                <div>
+                    <a href="cart.html">
+                        <i class="fa-brands fa-opencart"></i>
+                        <p> cart </p>
+                    </a>
+                </div>
+                <div>
+                    <a href="Login-SignUp.html">
+                        <i class="fa-regular fa-user"></i>
+                        <p> account </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="container">
+            <div>
+                <i class="fa-solid fa-bars"></i>
+                <p> categories </p>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="dropdown-categories">
+                    <li> <a href=""> Keyboards </a> </li>
+                    <li> <a href=""> Mice </a> </li>
+                    <li> <a href=""> Headsets </a> </li>
+                    <li> <a href=""> Monitors </a> </li>
+                </ul>
+            </div>
+            <ul class="navbar">
+                <li> <a href="index.html"> home </a> </li>
+
+                <li class="dropdown-shop">
+                    <a> shop </a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <ul>
+                        <li> <a href=""> All Products </a> </li>
+                        <li> <a href=""> New Arrivals </a> </li>
+                        <li> <a href=""> Best Sellers </a> </li>
+                        <li> <a href=""> Deals </a> </li>
+                    </ul>
+                </li>
+                <li class="dropdown-deals">
+                    <a> deals </a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <ul>
+                        <li> <a href=""> All Deals </a> </li>
+                        <li> <a href=""> Summer Sale </a> </li>
+                        <li> <a href=""> Flash Deals </a> </li>
+                        <li> <a href=""> Clearance </a> </li>
+                    </ul>
+                </li>
+                <li> <a> new arrivals</a> </li>
+                <li> <a> brands </a> </li>
+                <li> <a> blog </a> </li>
+                <li> <a> contact </a> </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <div class="head-text container">
+        <div>
+            <p>home</p>
+            <i class="fa-solid fa-chevron-right"></i>
+            <p> cart </p>
+            <i class="fa-solid fa-chevron-right"></i>
+            <p> checkout </p>
+        </div>
+        <h1> checkout </h1>
+        <div class="s4s">
+            <div class="part1">
+                <span> 1 </span>
+                <p> shipping </p>
+                <hr />
+            </div>
+
+            <div class="part">
+                <span> 2 </span>
+                <p> payment </p>
+                <hr />
+            </div>
+
+            <div class="part">
+                <span> 3 </span>
+                <p> review </p>
+                <hr />
+            </div>
+
+            <div class="part">
+                <span> 4 </span>
+                <p> complete </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+
+        <form class="lefto">
+            <div>
+                <h2> billing details </h2>
+                <div>
+                    <p> full name </p>
+                    <input class="full-name" type="text" placeholder="Enter your full name" />
+                </div>
+                <div class="emaill-number">
+                    <div>
+                        <p> emaill adderss </p>
+                        <input class="emaill" type="email" placeholder="Enter your email" />
+                    </div>
+
+                    <div>
+                        <p> phone number </p>
+                        <input class="phone-number" type="text" placeholder="Enter your phone number" />
+                    </div>
+                </div>
+
+                <div>
+                    <p> country / region </p>
+                    <select class="country" id="country" name="country">
+                        Select country
+                        <option value="">Select Country</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="saudi-arabia">Saudi Arabia</option>
+                        <option value="uae">United Arab Emirates</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p> city </p>
+                    <input class="city" type="text" placeholder="Enter your city" />
+                </div>
+
+                <div>
+                    <p> address </p>
+                    <input class="address" type="text" placeholder="Enter your address" />
+                </div>
+                <div class="postal-state">
+                    <div>
+                        <p> postal code </p>
+                        <input class="postal" type="number" placeholder="Enter postal code" />
+                    </div>
+                    <div>
+                        <p> state / province </p>
+                        <input class="state" type="text" placeholder="Enter state / province" />
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2> shipping address </h2>
+                <div class="check">
+                    <input type="checkbox" />
+                    same as billing address
+                </div>
+
+                <div>
+                    <p> country / region </p>
+                    <select class="country" id="country" name="country">
+                        Select country
+                        <option value="">Select Country</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="saudi-arabia">Saudi Arabia</option>
+                        <option value="uae">United Arab Emirates</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p> full name </p>
+                    <input class="full-name" type="text" placeholder="Enter your full name" />
+                </div>
+
+                <div>
+                    <p> phone number </p>
+                    <input class="phone-number" type="text" placeholder="Enter your phone number" />
+                </div>
+
+                <div>
+                    <p> city </p>
+                    <input class="city" type="text" placeholder="Enter your city" />
+                </div>
+
+                <div>
+                    <p> address </p>
+                    <input class="address" type="text" placeholder="Enter your address" />
+                </div>
+
+                <div class="postal-state">
+                    <div>
+                        <p> postal code </p>
+                        <input class="postal" type="number" placeholder="Enter postal code" />
+                    </div>
+
+                    <div>
+                        <p> state / province </p>
+                        <input class="state" type="text" placeholder="Enter state / province" />
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2> delivery method </h2>
+                <div>
+                    <div class="col">
+                        <div class="delivery-text">
+                            <input type="checkbox" />
+                            <i class="fa-solid fa-truck"></i>
+                            <div>
+                                <h3> free shipping </h3>
+                                <p> on orders over EGP 2,000 </p>
+                            </div>
+                        </div>
+                        <div>
+                            <b> EGP 0.00 </b>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col">
+                        <div class="delivery-text">
+                            <input type="checkbox" />
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <div>
+                                <h3> stadard Delivery </h3>
+                                <p> 3-5 business days </p>
+                            </div>
+                        </div>
+                        <div>
+                            <b>EGP 60.00 </b>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="delivery-text">
+                            <input type="checkbox" />
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <div>
+                                <h3> express Delivery </h3>
+                                <p> 1-2 business days </p>
+                            </div>
+                        </div>
+                        <div>
+                            <b>EGP 120.00</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2> payment method </h2>
+                <div>
+                    <div class="colu">
+                        <div class="payment-text">
+                            <input type="checkbox" />
+                            <i class="fa-regular fa-credit-card"></i>
+                            <div>
+                                <h3> credit / debit card </h3>
+                                <p> visa, mastercard </p>
+                            </div>
+                        </div>
+                        <div class="payment-i">
+                            <i class="fa-brands fa-cc-visa"></i>
+                            <i class="fa-brands fa-cc-mastercard"></i>
+                        </div>
+                    </div>
+
+                    <div class="colu">
+                        <div class="payment-text">
+                            <input type="checkbox" />
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+                            <div>
+                                <h3> cash on delivery </h3>
+                                <p> pay when you receive </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="colu">
+                        <div class="payment-text">
+                            <input type="checkbox" />
+                            <i class="fa-brands fa-paypal"></i>
+                            <div>
+                                <h3> payPal </h3>
+                                <p> secure payment with payPal </p>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-cc-paypal"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <form class="re">
+            <div class="cart-right">
+                <h2> order summary </h2>
+                <div class="summary" >
+                    <div class="order-summary" >
+                        <div class="re-text">
+                            <img src="img/items/Headphones.png" />
+                            <div>
+                                <h3> nove wireless gaming headset </h3>
+                                <p> black </p>
+                                <p>
+                                    qty: 1
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <b> EGP 1,299.00 </b>
+                        </div>
+                    </div>
+
+                    <div class="order-summary" >
+                        <div class="re-text">
+                            <img src="img/items/Keyboards.png" />
+                            <div>
+                                <h3> nove mechanical kayboard  </h3>
+                                <p> black </p>
+                                <p>
+                                    qty: 1
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <b> EGP 1,799.00 </b>
+                        </div>
+                    </div>
+
+                    <div class="order-summary last" >
+                        <div class="re-text">
+                            <img src="img/items/Mice.png" />
+                            <div>
+                                <h3> NOVA RBG gaming mouse  </h3>
+                                <p> black </p>
+                                <p>
+                                    qty: 2
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <b> EGP 1,798.00 </b>
+                        </div>
+                    </div>
+
+                    <div class="right-text1">
+                        <p> subtotal (4 items) </p>
+                        <p> EGP 4,896.00 </p>
+                    </div>
+                    <div class="right-text2">
+                        <p> shipping </p>
+                        <p> EGP 60.00</p>
+                    </div>
+                    <hr />
+                    <div class="total">
+                        <b> total </b>
+                        <b> EGP 4,956.00 </b>
+                    </div>
+                    <a href="Order-Success.html">
+                        <i class="fa-solid fa-lock"></i>
+                        place order
+                    </a>
+                    <p class="secure">
+                        <i class="fa-solid fa-shield"></i>
+                        secure checkout
+                    </p>
+                </div>
+
+                <div class="four-loog">
+                    <div class="log">
+                        <i class="fa-solid fa-truck"></i>
+                        <div>
+                            <h2> free shipping </h2>
+                            <p> on orders over $99 </p>
+                        </div>
+                    </div>
+                    <div class="log">
+                        <i class="fa-solid fa-rotate"></i>
+                        <div>
+                            <h2> 30-day returns </h2>
+                            <p> hassle free returns </p>
+
+                        </div>
+                    </div>
+                    <div class="log">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <div>
+                            <h2> 2-year warranty</h2>
+                            <p> quality you can trust </p>
+                        </div>
+                    </div>
+                    <div class="log">
+                        <i class="fa-solid fa-lock"></i>
+                        <div>
+                            <h2> secure checkout </h2>
+                            <p> yout data is protected</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+
+    </section>
+
+    <footer id="footer" class="container">
+
+        <div class="footer-content">
+
+            <div class="">
+                <h1>
+                    <img src="img/logo.png " alt="logo" />
+                    NOVA
+                </h1>
+                <p> premium gear for productivity, performance, and style. </p>
+                <aside>
+                    <a href=""> <i class="fa-brands fa-discord"></i> </a>
+                    <a href=""> <i class="fa-brands fa-instagram"></i> </a>
+                    <a href=""> <i class="fa-brands fa-twitter"></i> </a>
+                    <a href=""> <i class="fa-brands fa-youtube"></i> </a>
+                    <a href=""> <i class="fa-brands fa-tiktok"></i> </a>
+                </aside>
+            </div>
+
+            <div>
+                <div class="footer-text">
+                    <h3> shop </h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul>
+                    <li>
+                        <a href=""> keyboards </a>
+                    </li>
+                    <li>
+                        <a href=""> mice </a>
+                    </li>
+                    <li>
+                        <a href=""> headphones </a>
+                    </li>
+                    <li>
+                        <a href=""> monitors </a>
+                    </li>
+                    <li>
+                        <a href=""> desk accessories </a>
+                    </li>
+                    <li>
+                        <a href=""> deals </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="footer-text">
+                    <h3> customer service </h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul>
+                    <li> <a href=""> help center </a> </li>
+                    <li> <a href=""> track order </a> </li>
+                    <li> <a href=""> shipping & delivery </a> </li>
+                    <li> <a href=""> returns & refunds </a> </li>
+                    <li> <a href=""> warranty </a> </li>
+                    <li> <a href=""> contact us </a> </li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="footer-text">
+                    <h3> about </h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <ul>
+                    <li> <a href=""> about us </a> </li>
+                    <li> <a href=""> brands </a> </li>
+                    <li> <a href=""> blog </a> </li>
+                    <li> <a href=""> careers </a> </li>
+                    <li> <a href=""> terms & conditions </a> </li>
+                    <li> <a href=""> privacy policy </a> </li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="footer-text">
+                    <h3> stay connected </h3>
+                    <p> subscribe to get special offers, free giveaways, and once-in-a-lifetime deals. </p>
+                </div>
+
+                <div class="input-btn">
+                    <input placeholder=" Enter your email " />
+                    <button type="submit"> subscribe </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+            <p> @ 2026 NOVA. all rights reserved </p>
+            <div>
+                <a href="">
+                    <i class="fa-brands fa-cc-visa"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-cc-paypal"></i>
+                </a>
+
+                <a>
+                    <i class="fa-brands fa-cc-apple-pay"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>

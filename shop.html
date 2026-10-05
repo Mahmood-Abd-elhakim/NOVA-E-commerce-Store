@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA | shop - all products</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        
+        <div class="mine-header ">
+            <div class="medie-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div>
+                <img src="img/logo.png " alt="logo" />
+                <h1> NOVA </h1>
+            </div>
+
+            <div class="search">
+                <input type="search" placeholder="Search for products, categories, brands..." />
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div>
+                <div>
+                    <a href="Wishlist.html">
+                        <i class="fa-regular fa-heart"></i>
+                        <p> wishlist </p>
+                    </a>
+                </div>
+                <div>
+                    <a href="cart.html">
+                        <i class="fa-brands fa-opencart"></i>
+                        <p> cart </p>
+                    </a>
+                </div>
+                <div>
+                    <a href="Login-SignUp.html">
+                        <i class="fa-regular fa-user"></i>
+                        <p> account </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="container">
+            <div>
+                <i class="fa-solid fa-bars"></i>
+                <p> categories </p>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="dropdown-categories">
+                    <li> <a href=""> Keyboards </a> </li>
+                    <li> <a href=""> Mice </a> </li>
+                    <li> <a href=""> Headsets </a> </li>
+                    <li> <a href=""> Monitors </a> </li>
+                </ul>
+            </div>
+            <ul class="navbar">
+                <li> <a href="index.html"> home </a> </li>
+
+                <li class="dropdown-shop">
+                    <a> shop </a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <ul>
+                        <li> <a href=""> All Products </a> </li>
+                        <li> <a href=""> New Arrivals </a> </li>
+                        <li> <a href=""> Best Sellers </a> </li>
+                        <li> <a href=""> Deals </a> </li>
+                    </ul>
+                </li>
+                <li class="dropdown-deals">
+                    <a> deals </a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <ul>
+                        <li> <a href=""> All Deals </a> </li>
+                        <li> <a href=""> Summer Sale </a> </li>
+                        <li> <a href=""> Flash Deals </a> </li>
+                        <li> <a href=""> Clearance </a> </li>
+                    </ul>
+                </li>
+                <li> <a> new arrivals</a> </li>
+                <li> <a> brands </a> </li>
+                <li> <a> blog </a> </li>
+                <li> <a> contact </a> </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <div class="head-text container">
+        <div>
+            <p>home</p>
+            <i class="fa-solid fa-chevron-right"></i>
+            <p> shop </p>
+        </div>
+        <div>
+            <h1> all products </h1>
+        </div>
+    </div>
+    
+    <section class="container" >
+        <search>
+            <div>
+                <h2> categories </h2>
+                <label>
+                    <input type="checkbox" name="all-categories" value="yes" />
+                    all categories
+                </label>
+
+                <label>
+                    <input type="checkbox" name="keyboards" value="yes" />
+                    keyboards (22)
+                </label>
+
+                <label>
+                    <input type="checkbox" name="mice" value="yes" />
+                    mice (26)
+                </label>
+
+                <label>
+                    <input type="checkbox" name="headphones" value="yes" />
+                    headphones (42)
+                </label>
+
+                <label>
+                    <input type="checkbox" name="monitors" value="yes" />
+                    monitors (12)
+                </label>
+
+                <label>
+                    <input type="checkbox" name="desk-accessories" value="yes" />
+                    desk accessories (36)
+                </label>
+            </div>
+
+            <div>
+                <h2> price range </h2>
+                <label>
+                    <span>$0</span>
+                    <input type="range" name="price" id="price" min="0" max="500" value="0"/>
+                    <span>$500+</span>
+                </label>
+            </div>
+
+            <div>
+                <h2> brands </h2>
+                <label>
+                    <input type="checkbox" name="dell" value="yes" />
+                    dell
+                </label>
+
+                <label>
+                    <input type="checkbox" name="sony" value="yes" />
+                    sony
+                </label>
+
+                <label>
+                    <input type="checkbox" name="samsung" value="yes" />
+                    samsung
+                </label>
+
+                <label>
+                    <input type="checkbox" name="BenQ" value="yes" />
+                    BenQ
+                </label>
+
+                <label>
+                    <input type="checkbox" name="Logitech" value="yes" />
+                    Logitech
+                </label>
+
+                <label>
+                    <input type="checkbox" name="Keychron" value="yes" />
+                    Keychron
+                </label>
+                
+                <label>
+                    <a>
+                        see more
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </label>
+            </div>
+
+            <div>
+                <h2> rating </h2>
+                <label class="star-5s">
+                    <b>
+                    <input type="checkbox" name="five-star" value="yes" />
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </b>
+                    (120)
+                </label>
+
+                <label class="star-4s">
+                    <input type="checkbox" name="four-star" value="yes" />
+                    <b>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </b>
+                    & UP (212)
+                </label>
+
+                <label class="star-3s">
+                    <b>
+                    <input type="checkbox" name="three-star" value="yes" />
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </b>
+                    & UP (212)
+                </label>
+
+                <label class="star-2s">
+                    <b>
+                    <input type="checkbox" name="two-star" value="yes" />
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </b>
+                    & UP (212)
+                </label>
+
+            </div>
+        </search>
+        <div class="all-products-page">
+            <div>
+                <p>showing 1-12 of 168 products </p>
+                <p>
+                    sort by best selling
+                    <i class="fa-solid fa-chevron-down"></i>
+                </p>
+            </div>
+
+            <div class="all-products">
+
+                <div>
+                    <a href="">
+                        <div class="relav">
+                            <span class="product-condition">new</span>
+                            <img src="img/items/Keyboards.png" alt="keyboards" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (128) </p>
+                        </div>
+                        <div class="">
+                            <h4> keyboard k2 v2 </h4>
+                            <p> wireless mechanical keyboard </p>
+                            <b>$129.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <div class="relav">
+                            <img src="img/items/Mice.png" alt="mice" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (96) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> logitech g pro x </h4>
+                            <p> superlight wireless mouse </p>
+                            <b>$89.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="Product-Details-Page.html">
+                        <div class="relav">
+                            <span class="discount"> 15% </span>
+                            <img src="img/items/Headphones.png" alt="headphones" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (210) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> sony WH-1000XM5 </h4>
+                            <p> noise canceling headphones </p>
+                            <b>$349.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <div class="relav">
+                            <img src="img/items/desk-accessories.png" alt="desk accessories" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (81) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> benQ screenBar halo </h4>
+                            <p> LED monitor light bar </p>
+                            <b>$129.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <div class="relav">
+                            <span class="discount"> 8% </span>
+                            <img src="img/items/Monitors.png" alt="monitors" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (88) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> dell ultraSharp 27 </h4>
+                            <p> 4K UHD monitor </p>
+                            <b>$429.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <div class="relav">
+                            <span class="product-condition">new</span>
+                            <img src="img/items/Keyboards.png" alt="keyboards" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (128) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> keyboard k2 v2 </h4>
+                            <p> wireless mechanical keyboard </p>
+                            <b>$129.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <div class="relav">
+                            <img src="img/items/Mice.png" alt="mice" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (96) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> logitech g pro x </h4>
+                            <p> superlight wireless mouse </p>
+                            <b>$89.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="Product-Details-Page.html">
+                        <div class="relav">
+                            <span class="discount"> 15% </span>
+                            <img src="img/items/Headphones.png" alt="headphones" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (210) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> sony WH-1000XM5 </h4>
+                            <p> noise canceling headphones </p>
+                            <b>$349.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <div class="relav">
+                            <img src="img/items/desk-accessories.png" alt="desk accessories" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (81) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> benQ screenBar halo </h4>
+                            <p> LED monitor light bar </p>
+                            <b>$129.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <div class="relav">
+                            <span class="discount"> 8% </span>
+                            <img src="img/items/Monitors.png" alt="monitors" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (88) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> dell ultraSharp 27 </h4>
+                            <p> 4K UHD monitor </p>
+                            <b>$429.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <div class="relav">
+                            <img src="img/items/Mice.png" alt="mice" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (96) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> logitech g pro x </h4>
+                            <p> superlight wireless mouse </p>
+                            <b>$89.99</b>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="Product-Details-Page.html">
+                        <div class="relav">
+                            <span class="discount"> 15% </span>
+                            <img src="img/items/Headphones.png" alt="headphones" />
+                        </div>
+                        <div class="star">
+                            <h3>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </h3>
+                            <p> (210) </p>
+                        </div>
+                        <div class="popular-card-text">
+                            <h4> sony WH-1000XM5 </h4>
+                            <p> noise canceling headphones </p>
+                            <b>$349.99</b>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            
+            <ul class="pagination">
+                <li><a href="#" aria-label="Previous page">&lt;</a></li>
+
+                <li class="active" ><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">12</a></li>
+                <li><a href="#" aria-label="Next page">&gt;</a></li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>

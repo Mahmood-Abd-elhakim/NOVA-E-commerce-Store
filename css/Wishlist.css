@@ -1,0 +1,106 @@
+.head h1 {
+    margin: 0;
+    margin-top: 10px;
+}
+.head > div:first-child p {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+    .head h1 i {
+        color: var(--primary);
+        background-color: var(--gray-100);
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 24px;
+    }
+.head div:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head a {
+    width: 150px;
+    height: 35px;
+    color: var(--primary);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-sm);
+    text-align: center;
+    align-content: center;
+}
+.head button {
+    width: 150px;
+    height: 35px;
+    background-color: var(--primary);
+    border-radius: var(--radius-sm);
+    color: var(--white);
+    border: none;
+}
+
+.all-products-page > div:first-child {
+    border: 2px solid var(--gray-100);
+    border-radius: var(--radius-sm);
+    margin-top: 20px;
+    padding: 10px;
+    height: 60px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+    .all-products-page {
+        width: 100%
+    }
+
+    .Wishlist {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        font-size: 18px;
+        background-color: var(--white);
+        border-radius: var(--radius-md);
+        color: var(--danger);
+        display: block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .delete {
+        position: absolute;
+        left: 5px;
+        top: 45px;
+        font-size: 16px;
+        background-color: var(--white);
+        border-radius: var(--radius-lg);
+        color: var(--dark);
+        border: 2px solid var(--gray-200);
+        display: block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .all-products-page button {
+        color: var(--primary);
+        background-color: var(--white);
+        border-radius: var(--radius-sm);
+        border: 2px solid var(--gray-200);
+        display: block;
+        width: 95%;
+        height: 32px;
+        margin: 30px auto;
+        font-weight: 600;
+    }
+
+    .all-products > div {
+        border: 2px solid var(--gray-100);
+        border-radius: var(--radius-md);
+        padding: 10px;
+    } 
