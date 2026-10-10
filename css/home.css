@@ -196,7 +196,7 @@ header {
     }
         .mine-header img {
             height: 60px;
-            width: 90px;
+            width: 75px;
             object-fit: fill
         }
 
@@ -204,6 +204,12 @@ header {
             display: flex;
             align-items: center;
         }
+            .mine-header > div:nth-child(2) a {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                margin-right: 10px;
+            }
 
         .mine-header .search {
             width: 50%;

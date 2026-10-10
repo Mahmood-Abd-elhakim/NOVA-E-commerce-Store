@@ -1,3 +1,14 @@
+.checkout-full {
+    display: flex;
+}
+@media (max-width: 768px) {
+	.checkout-full {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
 .re-text img {
 	width: 90px;
 	height: 90px;
@@ -118,6 +129,11 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(calc(95% / 2), 1fr));
 	gap: 25px;
+}
+@media (max-width: 768px) {
+	.lefto {
+		width: 100%;
+	}
 }
 	.lefto > div {
 		display: flex;
@@ -261,6 +277,11 @@
 /**/
 .re {
 	width: 30%;
+}
+@media (max-width: 768px) {
+	.re {
+		width: 100%;
+	}
 }
 .cart-right {
 	width: 100%
